@@ -11,11 +11,10 @@ scautopick produces a SC3 XML file, which is parsed to produce a file of P- and 
 parse_xml.sh.This produces a series of text (.dat) files, like WIZ_20190531_sc3_s-p.dat, which contain the S-P data.
 
 # Visualization
-- A summary of the number of phases, including P-phases for the sites chosen, and S-P intervals for those sites.
 - A time-series of S-P versus earthquake origin time
-![GitHub Logo](/readme_images/white_island_s-p_scatter.png)
-- A boxpot showing the distribution of S-P intervals for the sites chosen
-![GitHub Logo](/readme_images/white_island_s-p_boxplot.png)
+![GitHub Logo](/readme_images/WIZ_S-P_time-series.png)
+- A histogram of S-P for all and best (SNR > x) data
+![GitHub Logo](/readme_images/WIZ_S-P_histogram.png)
 
 # Maturity
 This is not a mature product.
