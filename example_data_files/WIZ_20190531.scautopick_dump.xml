@@ -1,0 +1,5197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.11" version="0.11">
+  <EventParameters>
+    <pick publicID="20190531.004407.91-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T00:44:07.913133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.537538Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.004408.24-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T00:44:08.243133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.538416Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.004407.91-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.010441.92-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:04:41.923133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.57997Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.010444.01-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:04:44.013133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.580902Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.010441.92-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.011143.20-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:11:43.203133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.596237Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.011144.49-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:11:44.493133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.596845Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.011143.20-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.012809.27-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:28:09.273133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.630289Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.012810.04-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:28:10.043133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.630845Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.012809.27-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.014636.30-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:46:36.303133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.668022Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.014637.07-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:46:37.073133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.668598Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.014636.30-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.015034.40-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:50:34.403133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.678752Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.015035.22-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:50:35.223133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.679523Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.015034.40-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.015309.54-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T01:53:09.543133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.687082Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.015309.91-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T01:53:09.913133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.687575Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.015309.54-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.021459.19-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T02:14:59.193133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.731986Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.021500.96-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T02:15:00.963133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.732844Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.021459.19-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.022655.33-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T02:26:55.333133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.759009Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.022657.53-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T02:26:57.533133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.759839Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.022655.33-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.024814.54-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T02:48:14.543133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.804326Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.024815.10-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T02:48:15.103133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.805173Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.024814.54-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.025443.32-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T02:54:43.323133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.819936Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.025444.00-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T02:54:44.003133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.820476Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.025443.32-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.025805.81-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T02:58:05.813133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.829509Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.030810.72-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T03:08:10.723133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.852777Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.030811.81-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T03:08:11.813133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.853496Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.030810.72-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.032343.42-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T03:23:43.423133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.886207Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.032913.90-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T03:29:13.903133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.900399Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.032917.54-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T03:29:17.543133Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.901637Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.032913.90-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.040812.62-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T04:08:12.623187Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.977231Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.040813.32-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T04:08:13.323187Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.97785Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.040812.62-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.042853.02-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T04:28:53.023134Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.019687Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.042853.60-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T04:28:53.603134Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.020471Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.042853.02-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.044451.12-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T04:44:51.123129Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.052753Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.044632.16-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T04:46:32.163127Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.058246Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.044634.92-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T04:46:34.923127Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.059274Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.044632.16-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.045438.51-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T04:54:38.513126Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.07868Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.045439.87-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T04:54:39.873126Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.079342Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.045438.51-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.053417.55-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T05:34:17.553132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.157111Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.053417.99-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T05:34:17.993132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.157897Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.053417.55-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.053742.59-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T05:37:42.593132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.166738Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.053746.64-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T05:37:46.643132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.167806Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.053742.59-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.061226.12-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T06:12:26.123132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.235557Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.061226.50-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T06:12:26.503132Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.236392Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.061226.12-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.080744.16-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T08:07:44.163493Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.452178Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.080744.83-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T08:07:44.833493Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.453097Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.080744.16-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.085031.28-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T08:50:31.283109Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.533543Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.085032.28-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T08:50:32.283109Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.534342Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.085031.28-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.090700.57-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T09:07:00.573137Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.566649Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.090701.03-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T09:07:01.033137Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.567367Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.090700.57-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.093433.40-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T09:34:33.403128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.620885Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.093434.82-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T09:34:34.823128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.621526Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.093433.40-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.094153.18-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T09:41:53.183128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.637935Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.094155.06-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T09:41:55.063128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.638846Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.094153.18-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.101642.03-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T10:16:42.033128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.70597Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.101643.12-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T10:16:43.123128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.70682Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.101642.03-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.103003.76-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T10:30:03.763128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.733623Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.103004.67-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T10:30:04.673128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.734523Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.103003.76-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.103320.86-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T10:33:20.863128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.742478Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.103321.21-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T10:33:21.213128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.743264Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.103320.86-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.103506.51-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T10:35:06.513128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.747304Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.103507.03-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T10:35:07.033128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.748103Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.103506.51-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.103841.03-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T10:38:41.033128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.758302Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.110846.16-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T11:08:46.163128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.817885Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.110847.63-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T11:08:47.633128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.818484Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.110846.16-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.111443.12-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T11:14:43.123128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.831702Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.111443.90-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T11:14:43.903128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.833002Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.111443.12-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.112220.18-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T11:22:20.183128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.849593Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.112810.39-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T11:28:10.393128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.864097Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.112810.81-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T11:28:10.813128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.864645Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.112810.39-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.113438.99-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T11:34:38.993128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.88018Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.113441.05-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T11:34:41.053128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.88116Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.113438.99-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.120833.47-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T12:08:33.473128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.94676Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.120833.84-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T12:08:33.843128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.947617Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.120833.47-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.131132.76-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T13:11:32.763109Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.068421Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.132034.05-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T13:20:34.053121Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.088833Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.132034.99-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T13:20:34.993121Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.089425Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.132034.05-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.140948.64-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T14:09:48.64313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.184608Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.140949.11-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T14:09:49.11313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.18518Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.140948.64-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.141058.17-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T14:10:58.17313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.188425Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.141058.66-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T14:10:58.66313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.188983Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.141058.17-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.151209.37-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T15:12:09.37313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.307603Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.151209.72-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T15:12:09.72313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.308378Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.151209.37-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.151353.80-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T15:13:53.80313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.312337Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.151354.93-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T15:13:54.93313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.313131Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.151353.80-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.154526.52-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T15:45:26.52313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.377024Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.154526.98-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T15:45:26.98313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.377783Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.154526.52-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.164141.04-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T16:41:41.04313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.487106Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.164322.03-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T16:43:22.03313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.492413Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.164323.99-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T16:43:23.99313Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.49308Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.164322.03-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.165344.40-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T16:53:44.403263Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.516577Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.165345.36-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T16:53:45.363263Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.517359Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.165344.40-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.165851.03-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T16:58:51.033179Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.528846Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.165851.49-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T16:58:51.493179Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.530358Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.165851.03-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.170042.60-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T17:00:42.603142Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.53418Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.170043.00-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T17:00:43.003142Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.534687Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.170042.60-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.170856.14-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T17:08:56.14307Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.554442Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.170856.50-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T17:08:56.50307Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.555249Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.170856.14-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.171416.57-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T17:14:16.573097Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.568054Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.171416.89-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T17:14:16.893097Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.568868Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.171416.57-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.172149.26-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T17:21:49.263146Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.585991Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.172149.84-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T17:21:49.843146Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.586866Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.172149.26-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.175310.26-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T17:53:10.263128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.648392Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.175311.20-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T17:53:11.203128Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.64897Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.175310.26-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.181213.83-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T18:12:13.833131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.68725Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.181214.77-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T18:12:14.773131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.688024Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.181213.83-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.190111.35-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T19:01:11.353131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.78175Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.190112.42-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T19:01:12.423131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.783601Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.190111.35-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.190517.63-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T19:05:17.633131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.792883Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.190518.19-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T19:05:18.193131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.793439Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.190517.63-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.192923.45-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T19:29:23.453131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.840255Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.192924.36-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T19:29:24.363131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.841018Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.192923.45-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.195528.51-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T19:55:28.513131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.891937Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.195529.03-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T19:55:29.033131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.892839Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.195528.51-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.203011.75-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T20:30:11.753131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.958954Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.203012.44-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T20:30:12.443131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.959806Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.203011.75-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.203341.30-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T20:33:41.303131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.96834Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.203342.30-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T20:33:42.303131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.969131Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.203341.30-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.204933.70-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T20:49:33.703131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.001352Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.204934.07-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T20:49:34.073131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.002169Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.204933.70-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.210053.15-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:00:53.15349Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.025243Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.210054.24-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:00:54.24349Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.025895Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.210053.15-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.210538.72-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:05:38.723138Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.036916Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.210539.14-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:05:39.143138Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.037478Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.210538.72-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.212227.77-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:22:27.773137Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.071116Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.212228.69-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:22:28.693137Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.07195Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.212227.77-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.213740.17-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:37:40.173152Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.102421Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.213740.75-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:37:40.753152Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.103198Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.213740.17-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.214126.26-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:41:26.263121Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.112288Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.214128.00-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:41:28.003121Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.11316Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.214126.26-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.214349.57-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T21:43:49.573109Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.118173Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.214350.37-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T21:43:50.373109Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.118966Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.214349.57-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.221108.69-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T22:11:08.693138Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.175066Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.221109.68-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T22:11:09.683138Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.176104Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.221108.69-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.221659.29-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T22:16:59.293131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.188995Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.221659.60-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T22:16:59.603131Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.18972Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.221659.29-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.222233.31-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T22:22:33.313126Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.2022Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.222233.78-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T22:22:33.783126Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.202716Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.222233.31-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.222611.67-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T22:26:11.673125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.212124Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.222612.27-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T22:26:12.273125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.212844Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.222611.67-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.225956.28-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T22:59:56.283125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.278581Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.225959.87-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T22:59:59.873125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.279713Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.225956.28-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <pick publicID="20190531.232826.50-AIC-NZ.WIZ.10.HHZ">
+      <time>
+        <value>2019-05-31T23:28:26.503125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.334921Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20190531.232827.11-S-AIC-NZ.WIZ.10.HHN">
+      <time>
+        <value>2019-05-31T23:28:27.113125Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHN"/>
+      <filterID>BW(4,2,15)</filterID>
+      <methodID>L2-AIC-GRID</methodID>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.335507Z</creationTime>
+      </creationInfo>
+      <comment>
+        <text>20190531.232826.50-AIC-NZ.WIZ.10.HHZ</text>
+        <id>RefPickID</id>
+      </comment>
+    </pick>
+    <amplitude publicID="20190531.004407.91-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.01218204</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T00:44:07.913133Z</reference>
+        <begin>-4.75</begin>
+        <end>5.25</end>
+      </timeWindow>
+      <snr>10.01218204</snr>
+      <pickID>20190531.004407.91-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.537538Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.004407.91-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.707024205</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T00:44:11.273133Z</reference>
+        <begin>-8.36</begin>
+        <end>146.64</end>
+      </timeWindow>
+      <snr>3.826591099</snr>
+      <pickID>20190531.004407.91-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.545344Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.010441.92-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.490503861</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:04:41.923133Z</reference>
+        <begin>-2.93</begin>
+        <end>7.07</end>
+      </timeWindow>
+      <snr>4.490503861</snr>
+      <pickID>20190531.010441.92-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.57997Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.010441.92-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.007987479</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:06:07.873133Z</reference>
+        <begin>-90.95</begin>
+        <end>64.05</end>
+      </timeWindow>
+      <snr>1.78642326</snr>
+      <pickID>20190531.010441.92-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.587349Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.011143.20-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.992270398</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:11:43.203133Z</reference>
+        <begin>-3.72</begin>
+        <end>6.28</end>
+      </timeWindow>
+      <snr>3.992270398</snr>
+      <pickID>20190531.011143.20-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.596237Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.011143.20-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9757731528</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:11:46.413133Z</reference>
+        <begin>-8.21</begin>
+        <end>146.79</end>
+      </timeWindow>
+      <snr>1.52637494</snr>
+      <pickID>20190531.011143.20-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.603483Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.012809.27-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>9.343880718</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:28:09.273133Z</reference>
+        <begin>-4.99</begin>
+        <end>5.01</end>
+      </timeWindow>
+      <snr>9.343880718</snr>
+      <pickID>20190531.012809.27-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.630289Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.012809.27-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3.992214198</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:28:10.363133Z</reference>
+        <begin>-6.09</begin>
+        <end>148.91</end>
+      </timeWindow>
+      <snr>7.034985497</snr>
+      <pickID>20190531.012809.27-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.637473Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.014636.30-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>14.85201554</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:46:36.303133Z</reference>
+        <begin>-5.01</begin>
+        <end>4.99</end>
+      </timeWindow>
+      <snr>14.85201554</snr>
+      <pickID>20190531.014636.30-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.668022Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.014636.30-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.636742583</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:46:37.153133Z</reference>
+        <begin>-5.85</begin>
+        <end>149.15</end>
+      </timeWindow>
+      <snr>2.887370566</snr>
+      <pickID>20190531.014636.30-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.675473Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.015034.40-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>9.37067866</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:50:34.403133Z</reference>
+        <begin>-4.02</begin>
+        <end>5.98</end>
+      </timeWindow>
+      <snr>9.37067866</snr>
+      <pickID>20190531.015034.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.678752Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.015034.40-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.918202202</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:51:13.063133Z</reference>
+        <begin>-43.66</begin>
+        <end>111.34</end>
+      </timeWindow>
+      <snr>2.134970073</snr>
+      <pickID>20190531.015034.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.686341Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.015309.54-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>6.052010447</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:53:09.543133Z</reference>
+        <begin>-4.27</begin>
+        <end>5.73</end>
+      </timeWindow>
+      <snr>6.052010447</snr>
+      <pickID>20190531.015309.54-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.687082Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.015309.54-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9723770404</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T01:53:44.923133Z</reference>
+        <begin>-40.38</begin>
+        <end>114.62</end>
+      </timeWindow>
+      <snr>1.96773076</snr>
+      <pickID>20190531.015309.54-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.694259Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.021459.19-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.416136524</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:14:59.193133Z</reference>
+        <begin>-3.52</begin>
+        <end>6.48</end>
+      </timeWindow>
+      <snr>3.416136524</snr>
+      <pickID>20190531.021459.19-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.731986Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.021459.19-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8664812311</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:17:10.663133Z</reference>
+        <begin>-136.47</begin>
+        <end>18.53</end>
+      </timeWindow>
+      <snr>1.564555996</snr>
+      <pickID>20190531.021459.19-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.739444Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.022655.33-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.204808292</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:26:55.333133Z</reference>
+        <begin>-2.83</begin>
+        <end>7.17</end>
+      </timeWindow>
+      <snr>4.204808292</snr>
+      <pickID>20190531.022655.33-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.759009Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.022655.33-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8398295355</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:27:46.193133Z</reference>
+        <begin>-55.86</begin>
+        <end>99.14</end>
+      </timeWindow>
+      <snr>2.088108836</snr>
+      <pickID>20190531.022655.33-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.766519Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.024814.54-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.115041332</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:48:14.543133Z</reference>
+        <begin>-3.6</begin>
+        <end>6.4</end>
+      </timeWindow>
+      <snr>3.115041332</snr>
+      <pickID>20190531.024814.54-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.804326Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.024814.54-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8303212067</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:50:00.023133Z</reference>
+        <begin>-110.48</begin>
+        <end>44.52</end>
+      </timeWindow>
+      <snr>1.691589943</snr>
+      <pickID>20190531.024814.54-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.811832Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.025443.32-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>15.66317704</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:54:43.323133Z</reference>
+        <begin>-8.57</begin>
+        <end>1.43</end>
+      </timeWindow>
+      <snr>15.66317704</snr>
+      <pickID>20190531.025443.32-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.819936Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.025443.32-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3.158810134</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:54:44.383133Z</reference>
+        <begin>-6.06</begin>
+        <end>148.94</end>
+      </timeWindow>
+      <snr>6.351113994</snr>
+      <pickID>20190531.025443.32-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.827341Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.025805.81-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.931566997</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:58:05.813133Z</reference>
+        <begin>-4.97</begin>
+        <end>5.03</end>
+      </timeWindow>
+      <snr>5.931566997</snr>
+      <pickID>20190531.025805.81-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.829509Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.025805.81-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.128604747</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T02:58:06.753133Z</reference>
+        <begin>-5.94</begin>
+        <end>149.06</end>
+      </timeWindow>
+      <snr>2.463929373</snr>
+      <pickID>20190531.025805.81-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.837567Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.030810.72-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.896932105</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:08:10.723133Z</reference>
+        <begin>-5.2</begin>
+        <end>4.8</end>
+      </timeWindow>
+      <snr>3.896932105</snr>
+      <pickID>20190531.030810.72-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.852777Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.030810.72-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7385060349</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:10:15.363133Z</reference>
+        <begin>-129.64</begin>
+        <end>25.36</end>
+      </timeWindow>
+      <snr>1.683791894</snr>
+      <pickID>20190531.030810.72-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.860241Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.032343.42-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.96182752</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:23:43.423133Z</reference>
+        <begin>-5</begin>
+        <end>5</end>
+      </timeWindow>
+      <snr>4.96182752</snr>
+      <pickID>20190531.032343.42-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.886207Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.032343.42-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7393964046</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:25:58.483133Z</reference>
+        <begin>-140.06</begin>
+        <end>14.94</end>
+      </timeWindow>
+      <snr>1.811024072</snr>
+      <pickID>20190531.032343.42-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.89408Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.032913.90-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.523241399</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:29:13.903133Z</reference>
+        <begin>-1.42</begin>
+        <end>8.58</end>
+      </timeWindow>
+      <snr>5.523241399</snr>
+      <pickID>20190531.032913.90-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.900399Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.032913.90-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8293755324</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T03:30:54.413133Z</reference>
+        <begin>-105.51</begin>
+        <end>49.49</end>
+      </timeWindow>
+      <snr>1.96600936</snr>
+      <pickID>20190531.032913.90-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.908Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.040812.62-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>7.700822041</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:08:12.623187Z</reference>
+        <begin>-5.00002</begin>
+        <end>4.99998</end>
+      </timeWindow>
+      <snr>7.700822041</snr>
+      <pickID>20190531.040812.62-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.977231Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.040812.62-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.174196787</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:08:13.213196Z</reference>
+        <begin>-5.59</begin>
+        <end>149.41</end>
+      </timeWindow>
+      <snr>2.24622236</snr>
+      <pickID>20190531.040812.62-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:43.984704Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.042853.02-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.085508629</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:28:53.023134Z</reference>
+        <begin>-4.419996</begin>
+        <end>5.580004</end>
+      </timeWindow>
+      <snr>5.085508629</snr>
+      <pickID>20190531.042853.02-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.019687Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.042853.02-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8656405177</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:30:30.573132Z</reference>
+        <begin>-102.55</begin>
+        <end>52.45</end>
+      </timeWindow>
+      <snr>2.389042589</snr>
+      <pickID>20190531.042853.02-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.026916Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.044451.12-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.076232392</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:44:51.123129Z</reference>
+        <begin>-6.580002</begin>
+        <end>3.419998</end>
+      </timeWindow>
+      <snr>3.076232392</snr>
+      <pickID>20190531.044451.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.052753Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.044632.16-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.019535829</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:46:32.163127Z</reference>
+        <begin>-2.170001</begin>
+        <end>7.829999</end>
+      </timeWindow>
+      <snr>3.019535829</snr>
+      <pickID>20190531.044632.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.058246Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.044451.12-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7566506103</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:45:50.02313Z</reference>
+        <begin>-63.9</begin>
+        <end>91.1</end>
+      </timeWindow>
+      <snr>2.12741646</snr>
+      <pickID>20190531.044451.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.062595Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.044632.16-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6410691871</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:47:44.153128Z</reference>
+        <begin>-76.99</begin>
+        <end>78.01</end>
+      </timeWindow>
+      <snr>1.347495872</snr>
+      <pickID>20190531.044632.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.067392Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.045438.51-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.289515364</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:54:38.513126Z</reference>
+        <begin>-4.95</begin>
+        <end>5.05</end>
+      </timeWindow>
+      <snr>4.289515364</snr>
+      <pickID>20190531.045438.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.07868Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.045438.51-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9113728949</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T04:54:39.893126Z</reference>
+        <begin>-6.38</begin>
+        <end>148.62</end>
+      </timeWindow>
+      <snr>2.083859637</snr>
+      <pickID>20190531.045438.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.086049Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.053417.55-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.847361443</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T05:34:17.553132Z</reference>
+        <begin>-5.3</begin>
+        <end>4.7</end>
+      </timeWindow>
+      <snr>3.847361443</snr>
+      <pickID>20190531.053417.55-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.157111Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.053417.55-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7715129829</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T05:36:26.723132Z</reference>
+        <begin>-134.17</begin>
+        <end>20.83</end>
+      </timeWindow>
+      <snr>2.218110824</snr>
+      <pickID>20190531.053417.55-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.164379Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.053742.59-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>6.681711669</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T05:37:42.593132Z</reference>
+        <begin>-1.06</begin>
+        <end>8.94</end>
+      </timeWindow>
+      <snr>6.681711669</snr>
+      <pickID>20190531.053742.59-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.166738Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.053742.59-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6762527769</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T05:38:28.943132Z</reference>
+        <begin>-51.35</begin>
+        <end>103.65</end>
+      </timeWindow>
+      <snr>1.593290447</snr>
+      <pickID>20190531.053742.59-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.174321Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.061226.12-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.965291557</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T06:12:26.123132Z</reference>
+        <begin>-5.92</begin>
+        <end>4.08</end>
+      </timeWindow>
+      <snr>3.965291557</snr>
+      <pickID>20190531.061226.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.235557Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.061226.12-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7744893398</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T06:12:44.083132Z</reference>
+        <begin>-22.96</begin>
+        <end>132.04</end>
+      </timeWindow>
+      <snr>1.609657961</snr>
+      <pickID>20190531.061226.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.243088Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.080744.16-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>7.69964241</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T08:07:44.163493Z</reference>
+        <begin>-2.070064</begin>
+        <end>7.929936</end>
+      </timeWindow>
+      <snr>7.69964241</snr>
+      <pickID>20190531.080744.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.452178Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.080744.16-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7301031351</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T08:08:41.073509Z</reference>
+        <begin>-61.91</begin>
+        <end>93.09</end>
+      </timeWindow>
+      <snr>1.734497712</snr>
+      <pickID>20190531.080744.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.459393Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.085031.28-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>13.8255465</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T08:50:31.283109Z</reference>
+        <begin>-0.310001</begin>
+        <end>9.689999</end>
+      </timeWindow>
+      <snr>13.8255465</snr>
+      <pickID>20190531.085031.28-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.533543Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.085031.28-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6452409617</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T08:51:07.163111Z</reference>
+        <begin>-40.88</begin>
+        <end>114.12</end>
+      </timeWindow>
+      <snr>1.616664608</snr>
+      <pickID>20190531.085031.28-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.540509Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.090700.57-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.616454517</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:07:00.573137Z</reference>
+        <begin>-1.75</begin>
+        <end>8.25</end>
+      </timeWindow>
+      <snr>5.616454517</snr>
+      <pickID>20190531.090700.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.566649Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.090700.57-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9727840851</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:07:10.223137Z</reference>
+        <begin>-14.65</begin>
+        <end>140.35</end>
+      </timeWindow>
+      <snr>2.533670907</snr>
+      <pickID>20190531.090700.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.573756Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.093433.40-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>12.41445056</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:34:33.403128Z</reference>
+        <begin>-3.6</begin>
+        <end>6.4</end>
+      </timeWindow>
+      <snr>12.41445056</snr>
+      <pickID>20190531.093433.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.620885Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.093433.40-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7632615805</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:34:34.813128Z</reference>
+        <begin>-6.41</begin>
+        <end>148.59</end>
+      </timeWindow>
+      <snr>1.928156417</snr>
+      <pickID>20190531.093433.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.628077Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.094153.18-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.268850316</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:41:53.183128Z</reference>
+        <begin>-3.16</begin>
+        <end>6.84</end>
+      </timeWindow>
+      <snr>3.268850316</snr>
+      <pickID>20190531.094153.18-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.637935Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.094153.18-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6741255334</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T09:43:18.113128Z</reference>
+        <begin>-89.93</begin>
+        <end>65.07</end>
+      </timeWindow>
+      <snr>1.328817214</snr>
+      <pickID>20190531.094153.18-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.645037Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.101642.03-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.099471275</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:16:42.033128Z</reference>
+        <begin>-3.21</begin>
+        <end>6.79</end>
+      </timeWindow>
+      <snr>5.099471275</snr>
+      <pickID>20190531.101642.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.70597Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.101642.03-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6642219366</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:16:46.603128Z</reference>
+        <begin>-9.57</begin>
+        <end>145.43</end>
+      </timeWindow>
+      <snr>1.749774966</snr>
+      <pickID>20190531.101642.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.713067Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103003.76-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>13.57563302</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:30:03.763128Z</reference>
+        <begin>-0.48</begin>
+        <end>9.52</end>
+      </timeWindow>
+      <snr>13.57563302</snr>
+      <pickID>20190531.103003.76-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.733623Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103003.76-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6339338567</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:32:19.063128Z</reference>
+        <begin>-140.3</begin>
+        <end>14.7</end>
+      </timeWindow>
+      <snr>1.953134798</snr>
+      <pickID>20190531.103003.76-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.740648Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103320.86-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.200655212</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:33:20.863128Z</reference>
+        <begin>-4.93</begin>
+        <end>5.07</end>
+      </timeWindow>
+      <snr>5.200655212</snr>
+      <pickID>20190531.103320.86-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.742478Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103506.51-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.659152996</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:35:06.513128Z</reference>
+        <begin>-2.32</begin>
+        <end>7.68</end>
+      </timeWindow>
+      <snr>4.659152996</snr>
+      <pickID>20190531.103506.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.747304Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103320.86-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6735187613</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:35:24.543128Z</reference>
+        <begin>-128.68</begin>
+        <end>26.32</end>
+      </timeWindow>
+      <snr>1.539149856</snr>
+      <pickID>20190531.103320.86-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.751203Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103506.51-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7601490703</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:37:07.503128Z</reference>
+        <begin>-125.99</begin>
+        <end>29.01</end>
+      </timeWindow>
+      <snr>2.015334627</snr>
+      <pickID>20190531.103506.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.755983Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103841.03-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.305368191</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:38:41.033128Z</reference>
+        <begin>-5.43</begin>
+        <end>4.57</end>
+      </timeWindow>
+      <snr>3.305368191</snr>
+      <pickID>20190531.103841.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.758302Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.103841.03-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7198102058</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T10:40:38.293128Z</reference>
+        <begin>-122.26</begin>
+        <end>32.74</end>
+      </timeWindow>
+      <snr>1.843206789</snr>
+      <pickID>20190531.103841.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.766022Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.110846.16-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.980425121</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:08:46.163128Z</reference>
+        <begin>-2.29</begin>
+        <end>7.71</end>
+      </timeWindow>
+      <snr>5.980425121</snr>
+      <pickID>20190531.110846.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.817885Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.110846.16-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6348681599</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:09:43.653128Z</reference>
+        <begin>-62.49</begin>
+        <end>92.51</end>
+      </timeWindow>
+      <snr>1.904354593</snr>
+      <pickID>20190531.110846.16-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.825042Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.111443.12-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.326823211</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:14:43.123128Z</reference>
+        <begin>-7.99</begin>
+        <end>2.01</end>
+      </timeWindow>
+      <snr>4.326823211</snr>
+      <pickID>20190531.111443.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.831702Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.111443.12-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.078593343</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:14:43.703128Z</reference>
+        <begin>-5.58</begin>
+        <end>149.42</end>
+      </timeWindow>
+      <snr>2.528930431</snr>
+      <pickID>20190531.111443.12-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.839445Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.112220.18-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>6.027770799</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:22:20.183128Z</reference>
+        <begin>-0.61</begin>
+        <end>9.39</end>
+      </timeWindow>
+      <snr>6.027770799</snr>
+      <pickID>20190531.112220.18-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.849593Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.112220.18-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.5906194839</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:24:10.273128Z</reference>
+        <begin>-115.09</begin>
+        <end>39.91</end>
+      </timeWindow>
+      <snr>1.803773269</snr>
+      <pickID>20190531.112220.18-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.85728Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.112810.39-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>57.79176807</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:28:10.393128Z</reference>
+        <begin>-4.98</begin>
+        <end>5.02</end>
+      </timeWindow>
+      <snr>57.79176807</snr>
+      <pickID>20190531.112810.39-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.864097Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.112810.39-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>4.655485037</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:28:11.413128Z</reference>
+        <begin>-6.02</begin>
+        <end>148.98</end>
+      </timeWindow>
+      <snr>11.67531734</snr>
+      <pickID>20190531.112810.39-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.871418Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.113438.99-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.312729779</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:34:38.993128Z</reference>
+        <begin>-2.9</begin>
+        <end>7.1</end>
+      </timeWindow>
+      <snr>3.312729779</snr>
+      <pickID>20190531.113438.99-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.88018Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.113438.99-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6252709554</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T11:35:40.733128Z</reference>
+        <begin>-66.74</begin>
+        <end>88.26</end>
+      </timeWindow>
+      <snr>1.411222072</snr>
+      <pickID>20190531.113438.99-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.888067Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.120833.47-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.950654242</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T12:08:33.473128Z</reference>
+        <begin>-0.63</begin>
+        <end>9.37</end>
+      </timeWindow>
+      <snr>5.950654242</snr>
+      <pickID>20190531.120833.47-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.94676Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.120833.47-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6315369478</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T12:09:32.233128Z</reference>
+        <begin>-63.76</begin>
+        <end>91.24</end>
+      </timeWindow>
+      <snr>1.545900836</snr>
+      <pickID>20190531.120833.47-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:44.953911Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.131132.76-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.239537829</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T13:11:32.763109Z</reference>
+        <begin>-5.09</begin>
+        <end>4.91</end>
+      </timeWindow>
+      <snr>3.239537829</snr>
+      <pickID>20190531.131132.76-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.068421Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.131132.76-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7096664715</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T13:12:41.32311Z</reference>
+        <begin>-73.56</begin>
+        <end>81.44</end>
+      </timeWindow>
+      <snr>1.646924409</snr>
+      <pickID>20190531.131132.76-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.076187Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.132034.05-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>6.126881176</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T13:20:34.053121Z</reference>
+        <begin>-1.539997</begin>
+        <end>8.460003</end>
+      </timeWindow>
+      <snr>6.126881176</snr>
+      <pickID>20190531.132034.05-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.088833Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.132034.05-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6719019488</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T13:20:30.623119Z</reference>
+        <begin>-1.57</begin>
+        <end>153.43</end>
+      </timeWindow>
+      <snr>1.434952917</snr>
+      <pickID>20190531.132034.05-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.096005Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.140948.64-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.460516117</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T14:09:48.64313Z</reference>
+        <begin>-4.88</begin>
+        <end>5.12</end>
+      </timeWindow>
+      <snr>5.460516117</snr>
+      <pickID>20190531.140948.64-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.184608Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.141058.17-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>12.64718054</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T14:10:58.17313Z</reference>
+        <begin>-4.93</begin>
+        <end>5.07</end>
+      </timeWindow>
+      <snr>12.64718054</snr>
+      <pickID>20190531.141058.17-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.188425Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.140948.64-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.673184302</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T14:10:59.95313Z</reference>
+        <begin>-76.31</begin>
+        <end>78.69</end>
+      </timeWindow>
+      <snr>4.7686311</snr>
+      <pickID>20190531.140948.64-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.193506Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.141058.17-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.641350273</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T14:10:59.95313Z</reference>
+        <begin>-6.78</begin>
+        <end>148.22</end>
+      </timeWindow>
+      <snr>4.42091715</snr>
+      <pickID>20190531.141058.17-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.197173Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.151209.37-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.593994941</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:12:09.37313Z</reference>
+        <begin>-1.64</begin>
+        <end>8.36</end>
+      </timeWindow>
+      <snr>4.593994941</snr>
+      <pickID>20190531.151209.37-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.307603Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.151353.80-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>19.48341622</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:13:53.80313Z</reference>
+        <begin>-3.85</begin>
+        <end>6.15</end>
+      </timeWindow>
+      <snr>19.48341622</snr>
+      <pickID>20190531.151353.80-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.312337Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.151209.37-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9137908626</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:13:54.99313Z</reference>
+        <begin>-110.62</begin>
+        <end>44.38</end>
+      </timeWindow>
+      <snr>2.149859301</snr>
+      <pickID>20190531.151209.37-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.316245Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.151353.80-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9235896784</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:13:54.99313Z</reference>
+        <begin>-6.19</begin>
+        <end>148.81</end>
+      </timeWindow>
+      <snr>2.276184298</snr>
+      <pickID>20190531.151353.80-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.320867Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.154526.52-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.848445406</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:45:26.52313Z</reference>
+        <begin>-0.96</begin>
+        <end>9.04</end>
+      </timeWindow>
+      <snr>4.848445406</snr>
+      <pickID>20190531.154526.52-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.377024Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.154526.52-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9028182657</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T15:46:23.71313Z</reference>
+        <begin>-62.19</begin>
+        <end>92.81</end>
+      </timeWindow>
+      <snr>2.317050482</snr>
+      <pickID>20190531.154526.52-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.384228Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.164141.04-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>19.37515103</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:41:41.04313Z</reference>
+        <begin>-4.99</begin>
+        <end>5.01</end>
+      </timeWindow>
+      <snr>19.37515103</snr>
+      <pickID>20190531.164141.04-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.487106Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.164322.03-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.93167401</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:43:22.03313Z</reference>
+        <begin>-3.08</begin>
+        <end>6.92</end>
+      </timeWindow>
+      <snr>10.93167401</snr>
+      <pickID>20190531.164322.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.492413Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.164141.04-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2.072725398</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:41:41.10313Z</reference>
+        <begin>-5.06</begin>
+        <end>149.94</end>
+      </timeWindow>
+      <snr>4.140667964</snr>
+      <pickID>20190531.164141.04-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.49658Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.164322.03-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.85277674</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:44:43.68313Z</reference>
+        <begin>-86.65</begin>
+        <end>68.35</end>
+      </timeWindow>
+      <snr>1.709390775</snr>
+      <pickID>20190531.164322.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.501223Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.165344.40-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.976121351</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:53:44.403263Z</reference>
+        <begin>-0.860007</begin>
+        <end>9.139993</end>
+      </timeWindow>
+      <snr>4.976121351</snr>
+      <pickID>20190531.165344.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.516577Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.165344.40-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6951798958</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:55:22.13327Z</reference>
+        <begin>-102.73</begin>
+        <end>52.27</end>
+      </timeWindow>
+      <snr>1.527094086</snr>
+      <pickID>20190531.165344.40-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.523734Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.165851.03-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.586777494</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:58:51.033179Z</reference>
+        <begin>-8.250021</begin>
+        <end>1.749979</end>
+      </timeWindow>
+      <snr>3.586777494</snr>
+      <pickID>20190531.165851.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.528846Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.170042.60-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>8.66207924</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:00:42.603142Z</reference>
+        <begin>-2.260016</begin>
+        <end>7.739984</end>
+      </timeWindow>
+      <snr>8.66207924</snr>
+      <pickID>20190531.170042.60-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.53418Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.165851.03-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9014975234</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T16:58:56.873188Z</reference>
+        <begin>-10.84</begin>
+        <end>144.16</end>
+      </timeWindow>
+      <snr>2.075454026</snr>
+      <pickID>20190531.165851.03-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.537912Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.170042.60-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7598926753</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:02:00.013152Z</reference>
+        <begin>-82.41</begin>
+        <end>72.59</end>
+      </timeWindow>
+      <snr>1.473321315</snr>
+      <pickID>20190531.170042.60-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.542955Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.170856.14-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.92992208</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:08:56.14307Z</reference>
+        <begin>-3.159999</begin>
+        <end>6.840001</end>
+      </timeWindow>
+      <snr>3.92992208</snr>
+      <pickID>20190531.170856.14-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.554442Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.170856.14-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.744213478</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:09:27.873069Z</reference>
+        <begin>-36.73</begin>
+        <end>118.27</end>
+      </timeWindow>
+      <snr>1.719482733</snr>
+      <pickID>20190531.170856.14-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.561804Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.171416.57-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.768686671</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:14:16.573097Z</reference>
+        <begin>-4.319991</begin>
+        <end>5.680009</end>
+      </timeWindow>
+      <snr>3.768686671</snr>
+      <pickID>20190531.171416.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.568054Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.171416.57-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7622747272</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:15:00.593093Z</reference>
+        <begin>-49.02</begin>
+        <end>105.98</end>
+      </timeWindow>
+      <snr>1.724435808</snr>
+      <pickID>20190531.171416.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.575678Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.172149.26-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.080637377</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:21:49.263146Z</reference>
+        <begin>-4.899997</begin>
+        <end>5.100003</end>
+      </timeWindow>
+      <snr>3.080637377</snr>
+      <pickID>20190531.172149.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.585991Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.172149.26-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7336017164</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:24:18.203144Z</reference>
+        <begin>-153.94</begin>
+        <end>1.06</end>
+      </timeWindow>
+      <snr>1.719659016</snr>
+      <pickID>20190531.172149.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.593422Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.175310.26-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.125294559</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:53:10.263128Z</reference>
+        <begin>-6.639999</begin>
+        <end>3.360001</end>
+      </timeWindow>
+      <snr>3.125294559</snr>
+      <pickID>20190531.175310.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.648392Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.175310.26-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7586198647</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T17:54:23.423128Z</reference>
+        <begin>-78.16</begin>
+        <end>76.84</end>
+      </timeWindow>
+      <snr>1.701469859</snr>
+      <pickID>20190531.175310.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.655569Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.181213.83-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.018934319</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T18:12:13.833131Z</reference>
+        <begin>-4.98</begin>
+        <end>5.02</end>
+      </timeWindow>
+      <snr>4.018934319</snr>
+      <pickID>20190531.181213.83-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.68725Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.181213.83-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7845252652</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T18:13:41.053131Z</reference>
+        <begin>-92.22</begin>
+        <end>62.78</end>
+      </timeWindow>
+      <snr>1.748804183</snr>
+      <pickID>20190531.181213.83-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.694332Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.190111.35-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.199302954</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:01:11.353131Z</reference>
+        <begin>-9.15</begin>
+        <end>0.85</end>
+      </timeWindow>
+      <snr>3.199302954</snr>
+      <pickID>20190531.190111.35-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.78175Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.190111.35-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7877901021</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:02:10.313131Z</reference>
+        <begin>-63.96</begin>
+        <end>91.04</end>
+      </timeWindow>
+      <snr>1.775195873</snr>
+      <pickID>20190531.190111.35-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.789327Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.190517.63-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.376339139</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:05:17.633131Z</reference>
+        <begin>-5.57</begin>
+        <end>4.43</end>
+      </timeWindow>
+      <snr>4.376339139</snr>
+      <pickID>20190531.190517.63-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.792883Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.190517.63-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6292839147</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:05:18.943131Z</reference>
+        <begin>-6.31</begin>
+        <end>148.69</end>
+      </timeWindow>
+      <snr>1.02700998</snr>
+      <pickID>20190531.190517.63-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.799969Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.192923.45-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>9.137069624</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:29:23.453131Z</reference>
+        <begin>-3.25</begin>
+        <end>6.75</end>
+      </timeWindow>
+      <snr>9.137069624</snr>
+      <pickID>20190531.192923.45-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.840255Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.192923.45-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7054710135</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:29:30.403131Z</reference>
+        <begin>-11.95</begin>
+        <end>143.05</end>
+      </timeWindow>
+      <snr>1.662171568</snr>
+      <pickID>20190531.192923.45-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.847255Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.195528.51-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>9.382764055</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:55:28.513131Z</reference>
+        <begin>-1.6</begin>
+        <end>8.4</end>
+      </timeWindow>
+      <snr>9.382764055</snr>
+      <pickID>20190531.195528.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.891937Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.195528.51-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7380040815</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T19:56:24.493131Z</reference>
+        <begin>-60.98</begin>
+        <end>94.02</end>
+      </timeWindow>
+      <snr>1.865705735</snr>
+      <pickID>20190531.195528.51-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.89924Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.203011.75-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.880199177</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:30:11.753131Z</reference>
+        <begin>-2.84</begin>
+        <end>7.16</end>
+      </timeWindow>
+      <snr>3.880199177</snr>
+      <pickID>20190531.203011.75-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.958954Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.203011.75-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6612159776</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:32:40.333131Z</reference>
+        <begin>-153.58</begin>
+        <end>1.42</end>
+      </timeWindow>
+      <snr>1.581700956</snr>
+      <pickID>20190531.203011.75-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.966165Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.203341.30-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.228013893</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:33:41.303131Z</reference>
+        <begin>-4.31</begin>
+        <end>5.69</end>
+      </timeWindow>
+      <snr>3.228013893</snr>
+      <pickID>20190531.203341.30-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.96834Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.203341.30-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6853255943</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:35:40.963131Z</reference>
+        <begin>-124.66</begin>
+        <end>30.34</end>
+      </timeWindow>
+      <snr>1.879341264</snr>
+      <pickID>20190531.203341.30-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:45.975519Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.204933.70-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.840468796</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:49:33.703131Z</reference>
+        <begin>-4.06</begin>
+        <end>5.94</end>
+      </timeWindow>
+      <snr>3.840468796</snr>
+      <pickID>20190531.204933.70-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.001352Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.204933.70-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7398170427</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T20:49:49.143131Z</reference>
+        <begin>-20.44</begin>
+        <end>134.56</end>
+      </timeWindow>
+      <snr>2.011924445</snr>
+      <pickID>20190531.204933.70-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.008581Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.210053.15-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.973578058</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:00:53.15349Z</reference>
+        <begin>-2.620087</begin>
+        <end>7.379913</end>
+      </timeWindow>
+      <snr>5.973578058</snr>
+      <pickID>20190531.210053.15-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.025243Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.210053.15-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7591073617</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:02:42.913532Z</reference>
+        <begin>-114.76</begin>
+        <end>40.24</end>
+      </timeWindow>
+      <snr>1.872580149</snr>
+      <pickID>20190531.210053.15-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.032369Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.210538.72-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.781867921</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:05:38.723138Z</reference>
+        <begin>-5.970058</begin>
+        <end>4.029942</end>
+      </timeWindow>
+      <snr>4.781867921</snr>
+      <pickID>20190531.210538.72-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.036916Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.210538.72-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7293613762</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:06:01.923167Z</reference>
+        <begin>-28.2</begin>
+        <end>126.8</end>
+      </timeWindow>
+      <snr>2.282744511</snr>
+      <pickID>20190531.210538.72-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.04412Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.212227.77-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.007280353</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:22:27.773137Z</reference>
+        <begin>-5.279979</begin>
+        <end>4.720021</end>
+      </timeWindow>
+      <snr>3.007280353</snr>
+      <pickID>20190531.212227.77-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.071116Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.212227.77-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6498712173</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:23:41.373129Z</reference>
+        <begin>-78.6</begin>
+        <end>76.4</end>
+      </timeWindow>
+      <snr>1.379931656</snr>
+      <pickID>20190531.212227.77-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.078324Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.213740.17-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.223843503</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:37:40.173152Z</reference>
+        <begin>-5.05001</begin>
+        <end>4.94999</end>
+      </timeWindow>
+      <snr>5.223843503</snr>
+      <pickID>20190531.213740.17-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.102421Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.213740.17-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6421398937</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:39:47.763157Z</reference>
+        <begin>-132.59</begin>
+        <end>22.41</end>
+      </timeWindow>
+      <snr>1.319958542</snr>
+      <pickID>20190531.213740.17-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.109461Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.214126.26-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>4.270191133</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:41:26.263121Z</reference>
+        <begin>-3.320006</begin>
+        <end>6.679994</end>
+      </timeWindow>
+      <snr>4.270191133</snr>
+      <pickID>20190531.214126.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.112288Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.214349.57-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.6625214</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:43:49.573109Z</reference>
+        <begin>-5.510003</begin>
+        <end>4.489997</end>
+      </timeWindow>
+      <snr>3.6625214</snr>
+      <pickID>20190531.214349.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.118173Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.214126.26-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7794109482</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:43:55.503125Z</reference>
+        <begin>-154.24</begin>
+        <end>0.76</end>
+      </timeWindow>
+      <snr>1.717491381</snr>
+      <pickID>20190531.214126.26-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.121221Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.214349.57-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7533790539</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T21:43:55.50311Z</reference>
+        <begin>-10.93</begin>
+        <end>144.07</end>
+      </timeWindow>
+      <snr>2.015623049</snr>
+      <pickID>20190531.214349.57-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.127421Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.221108.69-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>8.993156136</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:11:08.693138Z</reference>
+        <begin>-0.72</begin>
+        <end>9.28</end>
+      </timeWindow>
+      <snr>8.993156136</snr>
+      <pickID>20190531.221108.69-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.175066Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.221108.69-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.727626379</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:13:05.473139Z</reference>
+        <begin>-121.78</begin>
+        <end>33.22</end>
+      </timeWindow>
+      <snr>2.178458298</snr>
+      <pickID>20190531.221108.69-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.182356Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.221659.29-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>6.148590263</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:16:59.293131Z</reference>
+        <begin>-4.670001</begin>
+        <end>5.329999</end>
+      </timeWindow>
+      <snr>6.148590263</snr>
+      <pickID>20190531.221659.29-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.188995Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.221659.29-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6717080744</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:17:24.833132Z</reference>
+        <begin>-30.54</begin>
+        <end>124.46</end>
+      </timeWindow>
+      <snr>1.383012152</snr>
+      <pickID>20190531.221659.29-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.195984Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.222233.31-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>3.385715046</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:22:33.313126Z</reference>
+        <begin>-4.32</begin>
+        <end>5.68</end>
+      </timeWindow>
+      <snr>3.385715046</snr>
+      <pickID>20190531.222233.31-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.2022Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.222233.31-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6285107959</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:22:52.053127Z</reference>
+        <begin>-23.74</begin>
+        <end>131.26</end>
+      </timeWindow>
+      <snr>1.508882239</snr>
+      <pickID>20190531.222233.31-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.209447Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.222611.67-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.02575878</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:26:11.673125Z</reference>
+        <begin>-0.56</begin>
+        <end>9.44</end>
+      </timeWindow>
+      <snr>10.02575878</snr>
+      <pickID>20190531.222611.67-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.212124Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.222611.67-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6068465151</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:26:54.203125Z</reference>
+        <begin>-47.53</begin>
+        <end>107.47</end>
+      </timeWindow>
+      <snr>1.39509165</snr>
+      <pickID>20190531.222611.67-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.219365Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.225956.28-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>5.535079129</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T22:59:56.283125Z</reference>
+        <begin>-1.4</begin>
+        <end>8.6</end>
+      </timeWindow>
+      <snr>5.535079129</snr>
+      <pickID>20190531.225956.28-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.278581Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.225956.28-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.7746347119</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T23:01:08.053125Z</reference>
+        <begin>-76.77</begin>
+        <end>78.23</end>
+      </timeWindow>
+      <snr>1.695290051</snr>
+      <pickID>20190531.225956.28-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.28593Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.232826.50-AIC-NZ.WIZ.10.HHZ.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>7.641071876</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T23:28:26.503125Z</reference>
+        <begin>-4.73</begin>
+        <end>5.27</end>
+      </timeWindow>
+      <snr>7.641071876</snr>
+      <pickID>20190531.232826.50-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.334921Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20190531.232826.50-AIC-NZ.WIZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.6314007836</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2019-05-31T23:29:09.533125Z</reference>
+        <begin>-48.03</begin>
+        <end>106.97</end>
+      </timeWindow>
+      <snr>1.373655857</snr>
+      <pickID>20190531.232826.50-AIC-NZ.WIZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WIZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>VOLCTEST</agencyID>
+        <author>scautopick@sc3sp-vm</author>
+        <creationTime>2019-06-03T00:18:46.342374Z</creationTime>
+      </creationInfo>
+    </amplitude>
+  </EventParameters>
+</seiscomp>
