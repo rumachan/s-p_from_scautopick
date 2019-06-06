@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.11" version="0.11">
+  <Config>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/WIZ/default" created="2019-05-29T03:33:41.117434Z">
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190529033341.117492.102">
+        <name>spicker.AIC.signalBegin</name>
+        <value>0.2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117576.103">
+        <name>spicker.AIC.step</name>
+        <value>0.1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.11761.104">
+        <name>spicker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117631.105">
+        <name>detecStream</name>
+        <value>HH</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117647.106">
+        <name>spicker.AIC.minSNR</name>
+        <value>1.5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117664.107">
+        <name>spicker.AIC.noiseBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117679.108">
+        <name>picker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117694.109">
+        <name>spicker.AIC.filter</name>
+        <value>BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117709.110">
+        <name>detecLocid</name>
+        <value>10</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117725.111">
+        <name>picker.AIC.signalBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529042619.835718.132">
+        <name>picker.AIC.filter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.623654.484">
+        <name>spicker.L2.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.623788.485">
+        <name>spicker.L2.minSNR</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.623815.486">
+        <name>spicker.L2.threshold</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.623867.487">
+        <name>spicker.L2.marginAIC</name>
+        <value>2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.623887.488">
+        <name>spicker.L2.filter</name>
+        <value>BW(3,1,5)</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/WIZ/scautopick" created="2019-05-29T03:33:41.117822Z">
+      <baseID>ParameterSet/trunk/Station/NZ/WIZ/default</baseID>
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190529033341.117842.113">
+        <name>timeCorr</name>
+        <value>0</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117867.114">
+        <name>detecFilter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)&gt;&gt;STALTA(0.5,20)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.117887.115">
+        <name>trigOn</name>
+        <value>2</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/WSRZ/default" created="2019-05-29T03:33:41.118055Z">
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190529033341.118073.118">
+        <name>spicker.AIC.signalBegin</name>
+        <value>0.2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118097.119">
+        <name>spicker.AIC.step</name>
+        <value>0.1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118115.120">
+        <name>spicker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118132.121">
+        <name>detecStream</name>
+        <value>HH</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118148.122">
+        <name>spicker.AIC.minSNR</name>
+        <value>1.5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118165.123">
+        <name>spicker.AIC.noiseBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.11818.124">
+        <name>picker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118196.125">
+        <name>spicker.AIC.filter</name>
+        <value>BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118211.126">
+        <name>detecLocid</name>
+        <value>10</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118227.127">
+        <name>picker.AIC.signalBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529042619.835965.133">
+        <name>picker.AIC.filter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.624003.489">
+        <name>spicker.L2.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.624026.490">
+        <name>spicker.L2.minSNR</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.624045.491">
+        <name>spicker.L2.threshold</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.624061.492">
+        <name>spicker.L2.marginAIC</name>
+        <value>2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190531023121.624077.493">
+        <name>spicker.L2.filter</name>
+        <value>BW(3,1,5)</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/WSRZ/scautopick" created="2019-05-29T03:33:41.118285Z">
+      <baseID>ParameterSet/trunk/Station/NZ/WSRZ/default</baseID>
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190529033341.1183.129">
+        <name>timeCorr</name>
+        <value>0</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.11832.130">
+        <name>detecFilter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)&gt;&gt;STALTA(0.5,20)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190529033341.118338.131">
+        <name>trigOn</name>
+        <value>2</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/GLKZ/default" created="2019-06-05T20:30:44.901006Z">
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190605203044.901051.338">
+        <name>spicker.L2.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901101.339">
+        <name>detecStream</name>
+        <value>HH</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901124.340">
+        <name>spicker.AIC.minSNR</name>
+        <value>1.5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901143.341">
+        <name>spicker.L2.minSNR</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.90116.342">
+        <name>picker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901181.343">
+        <name>spicker.AIC.filter</name>
+        <value>BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901199.344">
+        <name>spicker.AIC.step</name>
+        <value>0.1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901215.345">
+        <name>spicker.L2.threshold</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901231.346">
+        <name>spicker.L2.marginAIC</name>
+        <value>2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901248.347">
+        <name>spicker.AIC.signalBegin</name>
+        <value>0.2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901264.348">
+        <name>spicker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.90128.349">
+        <name>picker.AIC.filter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901295.350">
+        <name>spicker.AIC.noiseBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901311.351">
+        <name>detecLocid</name>
+        <value>10</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901327.352">
+        <name>picker.AIC.signalBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901342.353">
+        <name>spicker.L2.filter</name>
+        <value>BW(3,1,5)</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/GLKZ/scautopick" created="2019-06-05T20:30:44.901409Z">
+      <baseID>ParameterSet/trunk/Station/NZ/GLKZ/default</baseID>
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190605203044.901426.355">
+        <name>timeCorr</name>
+        <value>0</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901447.356">
+        <name>detecFilter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)&gt;&gt;STALTA(0.5,20)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901466.357">
+        <name>trigOn</name>
+        <value>2</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/RIZ/default" created="2019-06-05T20:30:44.901604Z">
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190605203044.90162.360">
+        <name>spicker.L2.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901644.361">
+        <name>detecStream</name>
+        <value>HH</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901663.362">
+        <name>spicker.AIC.minSNR</name>
+        <value>1.5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901681.363">
+        <name>spicker.L2.minSNR</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901697.364">
+        <name>picker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901714.365">
+        <name>spicker.AIC.filter</name>
+        <value>BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.90173.366">
+        <name>spicker.AIC.step</name>
+        <value>0.1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901745.367">
+        <name>spicker.L2.threshold</name>
+        <value>1</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.90176.368">
+        <name>spicker.L2.marginAIC</name>
+        <value>2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901777.369">
+        <name>spicker.AIC.signalBegin</name>
+        <value>0.2</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901793.370">
+        <name>spicker.AIC.signalEnd</name>
+        <value>5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901809.371">
+        <name>picker.AIC.filter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901824.372">
+        <name>spicker.AIC.noiseBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901839.373">
+        <name>detecLocid</name>
+        <value>10</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901854.374">
+        <name>picker.AIC.signalBegin</name>
+        <value>-5</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.90187.375">
+        <name>spicker.L2.filter</name>
+        <value>BW(3,1,5)</value>
+      </parameter>
+    </parameterSet>
+    <parameterSet publicID="ParameterSet/trunk/Station/NZ/RIZ/scautopick" created="2019-06-05T20:30:44.901926Z">
+      <baseID>ParameterSet/trunk/Station/NZ/RIZ/default</baseID>
+      <moduleID>Config/trunk</moduleID>
+      <parameter publicID="Parameter/20190605203044.901941.377">
+        <name>timeCorr</name>
+        <value>0</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901961.378">
+        <name>detecFilter</name>
+        <value>RMHP(10)&gt;&gt;BW(4,2,15)&gt;&gt;STALTA(0.5,20)</value>
+      </parameter>
+      <parameter publicID="Parameter/20190605203044.901979.379">
+        <name>trigOn</name>
+        <value>2</value>
+      </parameter>
+    </parameterSet>
+    <module publicID="Config/trunk" name="trunk" enabled="true">
+      <station publicID="Config/trunk/NZ/WIZ" networkCode="NZ" stationCode="WIZ" enabled="true">
+        <creationInfo>
+          <agencyID>VOLCTEST</agencyID>
+          <author>trunk</author>
+          <creationTime>2019-05-29T03:33:41.117085Z</creationTime>
+        </creationInfo>
+        <setup name="default" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/WIZ/default</parameterSetID>
+        </setup>
+        <setup name="scautopick" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/WIZ/scautopick</parameterSetID>
+        </setup>
+      </station>
+      <station publicID="Config/trunk/NZ/WSRZ" networkCode="NZ" stationCode="WSRZ" enabled="true">
+        <creationInfo>
+          <agencyID>VOLCTEST</agencyID>
+          <author>trunk</author>
+          <creationTime>2019-05-29T03:33:41.117988Z</creationTime>
+        </creationInfo>
+        <setup name="default" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/WSRZ/default</parameterSetID>
+        </setup>
+        <setup name="scautopick" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/WSRZ/scautopick</parameterSetID>
+        </setup>
+      </station>
+      <station publicID="Config/trunk/NZ/GLKZ" networkCode="NZ" stationCode="GLKZ" enabled="true">
+        <creationInfo>
+          <agencyID>VOLCTEST</agencyID>
+          <author>trunk</author>
+          <creationTime>2019-06-05T20:30:44.900759Z</creationTime>
+        </creationInfo>
+        <setup name="default" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/GLKZ/default</parameterSetID>
+        </setup>
+        <setup name="scautopick" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/GLKZ/scautopick</parameterSetID>
+        </setup>
+      </station>
+      <station publicID="Config/trunk/NZ/RIZ" networkCode="NZ" stationCode="RIZ" enabled="true">
+        <creationInfo>
+          <agencyID>VOLCTEST</agencyID>
+          <author>trunk</author>
+          <creationTime>2019-06-05T20:30:44.901543Z</creationTime>
+        </creationInfo>
+        <setup name="default" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/RIZ/default</parameterSetID>
+        </setup>
+        <setup name="scautopick" enabled="true">
+          <parameterSetID>ParameterSet/trunk/Station/NZ/RIZ/scautopick</parameterSetID>
+        </setup>
+      </station>
+    </module>
+  </Config>
+</seiscomp>
