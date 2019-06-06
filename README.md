@@ -7,8 +7,17 @@ Given the location scatter for earthquakes near volcanoes, the volcano monitorin
 # Detail
 Previous efforts to look at changes in S-P at volcanoes, such as Raoul Island in 2006, relied on manually picking P- and S-phases.  An alternative is to use get scautopick to make P- and S-picks from multiplaxed mini-seed files, typically a day at a time.
 
-scautopick produces a SC3 XML file, which is parsed to produce a file of P- and S-picks using sc3ml2sp.py via 
-parse_xml.sh.This produces a series of text (.dat) files, like WIZ_20190531_sc3_s-p.dat, which contain the S-P data.
+Using SC3, acquire mini-seed data and run scautopick phase pickers
+
+``` s-p_scautopick.sh service-nrt 20190528 20190529 WSRZ```
+
+This produces a XML file for each day.
+
+Parse the XML files to produce S-P times as a text (.dat) files, like WIZ_20190531_sc3_s-p.dat.
+
+```sc3xml_parse.sh 20190528 20190529 WSRZ```
+
+Run a Jupyter Notebook (scautopick_spplot.ipynb) to visualize the results.
 
 # Visualization
 - A time-series of S-P versus earthquake origin time
