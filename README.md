@@ -7,7 +7,7 @@ Given the location scatter for earthquakes near volcanoes, the volcano monitorin
 # Detail
 Previous efforts to look at changes in S-P at volcanoes, such as Raoul Island in 2006, relied on manually picking P- and S-phases.  An alternative is to use get scautopick to make P- and S-picks from multiplaxed mini-seed files, typically a day at a time.
 
-Using SC3, acquire mini-seed data and run scautopick phase pickers
+Using SC3, acquire mini-seed data and run scautopick phase pickers. **NB the S-picker S-AIC is used, this is not open source in SC3, but is licensed by Gempa**
 
 ``` s-p_scautopick.sh service-nrt 20190528 20190529 WSRZ```
 
